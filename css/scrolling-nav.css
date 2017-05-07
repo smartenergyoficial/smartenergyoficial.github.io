@@ -1,0 +1,199 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (http://startbootstrap.com/)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+@media(min-width:767px) {
+    .navbar {
+        padding: 20px 0;
+        -webkit-transition: background .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out;
+        transition: background .5s ease-in-out;
+    }
+}
+
+.show-nav {
+    visibility: visible !important;
+    padding: 0;
+}
+
+.navbar {
+    background: #000;
+    color: #fff;
+    border: none;
+    margin: 0;
+    height: 60px;
+    visibility: hidden;
+    -webkit-transition: background .5s ease-in-out;
+    -moz-transition: background .5s ease-in-out;
+    transition: background .5s ease-in-out;
+}
+
+.navbar .navbar-default {
+    margin-bottom: 0 !important;
+    color: #fff;
+    background: #000;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    background: #000;
+}
+
+.navbar .navbar-nav li a {
+    color: #ddd;
+    padding: 20px;
+    font-size: 12pt;
+}
+
+.navbar .navbar-nav li a:hover,
+.navbar .navbar-nav li a:focus,
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:hover,
+.navbar .navbar-nav li.active a,
+.navbar .navbar-nav li.active a:focus,
+.navbar .navbar-nav li.active a:hover {
+    color: #fff;
+    background: transparent;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+    background: #000;
+}
+
+.intro-section {
+    position: relative;
+    height: 100%;
+    text-align: center;
+    background: #22313F;
+    -webkit-box-shadow: inset 0px -1px 12px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 0px -1px 12px 0px rgba(0,0,0,0.75);
+    box-shadow: inset 0px -1px 12px 0px rgba(0,0,0,0.75);
+}
+
+.title {
+    font-size: 32pt;
+    color: #29c75f;
+    margin-bottom: 15px;
+}
+
+.intro-section .content {
+    height: 100%;
+    width: 100%;
+}
+
+.about-section {
+    height: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+    background: #2e3f4f;
+    color: #fff;
+}
+
+.about-section .row p {
+    margin-top: 20px;
+    font-size: 16pt;
+}
+
+.services-section {
+    height: auto;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    text-align: center;
+    background: #29c75f;
+
+}
+
+.contact-section {
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-align: center;
+    background: #fff;
+}
+
+.contact-section .info p {
+    font-size: 12pt;
+    text-align: left;
+    padding-bottom: 5px;
+}
+
+.contact-section form input {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 10px;
+    font-size: 12pt;
+    margin-bottom: 5px;
+}
+
+.contact-section form input:focus {
+    border-color: #29c75f;
+    box-shadow: none;
+}
+
+.contact-section form textarea {
+    display: block;
+    width: 100%;
+    min-height: 100px;
+    margin-bottom: 10px;
+}
+
+.contact-section form textarea:focus {
+    border-color: #29c75f;
+    box-shadow: none;
+}
+
+.contact-section form button {
+    padding: 10px 25px 10px 25px;
+    font-size: 14pt;
+    border-radius: 0;
+    border-color: #29c75f;
+    color: #29c75f;
+    background-color: transparent;
+    transition: background 0.2s;
+}
+
+.contact-section form button:hover {
+    background-color: #29c75f;
+    border-color: #29c75f;
+    color: #fff;
+    font-weight: bold;
+}
+
+footer {
+    padding-top: 20px;
+    background-color: #444;
+    text-align: center;
+    color: #eee;
+}
+
+footer .social {
+    margin-bottom: 20px;
+}
+
+footer .social a {
+    margin-right: 5px;
+}
+
+footer .copy {
+    margin-top: 10px;
+    background-color: #555;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
