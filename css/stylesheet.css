@@ -85,10 +85,13 @@ html {
     box-shadow: inset 0px -1px 12px 0px rgba(0,0,0,0.75);
 }
 
-.title {
+.row .title {
     font-size: 32pt;
     color: #29c75f;
-    margin-bottom: 15px;
+}
+
+.body {
+    margin-top: 40px;
 }
 
 .intro-section .content {
@@ -115,8 +118,15 @@ html {
     padding-top: 120px;
     padding-bottom: 120px;
     text-align: center;
-    background: #29c75f;
+    background: #eee;
+}
 
+.services-section .title {
+    color: #2e3f4f;
+}
+
+.services-section .body p {
+    font-size: 12pt;
 }
 
 .contact-section {
@@ -125,6 +135,10 @@ html {
     padding-bottom: 60px;
     text-align: center;
     background: #fff;
+}
+
+.contact-section .title {
+    color: #2e3f4f;
 }
 
 .contact-section .info p {
