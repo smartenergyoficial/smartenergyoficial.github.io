@@ -109,7 +109,6 @@ html {
     color: #ffffff;
     font-size: 50pt;
     background: #000;
-    border-radius: 50px;
     padding: 0 20px 0 20px;
 }
 
@@ -220,7 +219,7 @@ footer .social a {
 }
 
 footer .social a img {
-    height: 30px;
+    height: 40px;
 }
 
 footer .copy {
