@@ -90,7 +90,7 @@ html {
     position: relative;
     height: 100%;
     text-align: center;
-    background: url("../img/grupo.jpg");
+    /* background: url("../img/grupo.jpg"); */
     background-size: cover;
 }
 
@@ -109,6 +109,7 @@ html {
     color: #ffffff;
     font-size: 50pt;
     background: #000;
+    border-radius: 6px;
     padding: 0 20px 0 20px;
 }
 
@@ -170,7 +171,8 @@ html {
 
 .team-section .body span {
     padding: 0 10px 0 10px;
-    background-color: #000000;
+    background-color: #000;
+    border-radius: 3px;
 }
 
 .contact-section {
